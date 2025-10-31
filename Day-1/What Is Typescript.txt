@@ -1,0 +1,45 @@
+1-What is Type script?
+ *.typeScript is superset of javascript with syntax for types! 
+
+2- Why Typescript
+> Avoid Bugs in Development
+> Increase development speed 
+> Additional Features 
+
+
+ //Data Types
+
+//Number
+//String 
+//Any
+//Boolean
+//unknown
+//undefind
+//Naver 
+
+
+
+
+ Object types
+
+const user = {
+ name: 'saqlain abbas'
+lastName: 'Shahyan'
+role : 'Developer'
+
+}
+
+console.log("user")
+
+//with Types
+
+const :{
+name: string,
+lastName:string,
+role:string,
+
+},
+
+//Type Alias
+
+
