@@ -1,0 +1,42 @@
+What is an interface?
+. An interface defines the (structure of an object) what properties it must have and what there types are .
+
+'' ts  
+  interface Transction {
+payerAccountNumber:number;
+payeeAccountNumber:number;
+
+}
+
+What is extand ?
+. the extand keyword is used to inherit properties from another interface it helps us avoid duplication and reuse structure easly. 
+
+''ts 
+interface DetailedTransction extend Transction {
+amount: number;
+date : string ;
+status: "Pending" | "Completed" | "Failed";
+}
+
+// Here DetailedTransction automatically get 
+.payerAccountNumber:number;
+.payeeAccountNumber:number;
+
+*and add its own properties:
+. amount, date, ,tatus.
+
+Why use extands?
+
+. Reduses duplicate code 
+. Makes structure  reusable
+. easier to maintain and update 
+. keeps large projects clean and organized 
+
+💬 Remember:
+
+"When two interfaces look similar don't copy -- extand"
+
+
+
+
+
